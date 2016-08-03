@@ -1,9 +1,7 @@
 ---
 date: 2016-03-28T10:23:59+08:00
 title: gae link pip helper
-description: '如何利用 virtualenv, virtualenvwrapper, requirements.txt, linkenv, link_pip 快速建置 Google App Engine - Python 開發環境'
-type: post
-ogtype: article
+desc: '如何利用 virtualenv, virtualenvwrapper, requirements.txt, linkenv, link_pip 快速建置 Google App Engine - Python 開發環境'
 tags:
   - Shell
   - Python

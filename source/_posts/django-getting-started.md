@@ -1,15 +1,12 @@
 ---
 date: 2015-11-01T23:39:07+08:00
 title: django getting started
-description: '簡單說明如何快速建立一個 Django 專案及搭配 Virtualenv, PyCharm'
-type: post
-ogtype: article
+desc: 簡單說明如何快速建立一個 Django 專案及搭配 Virtualenv, PyCharm
 tags:
   - Python
   - Django
   - twoscoops
   - PyCharm
-ogimage: /img/django-getting-started-03.png
 ---
 
 Django Quick Getting Started

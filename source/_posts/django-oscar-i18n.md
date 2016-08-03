@@ -1,9 +1,7 @@
 ---
 date: 2016-04-14T10:29:17+08:00
 title: 筆記 - django oscar i18n
-description: '如何在 django-oscar 使用自己的 locale 檔案'
-type: post
-ogtype: article
+desc: 如何在 django-oscar 使用自己的 locale 檔案
 tags:
   - Python
   - Oscar

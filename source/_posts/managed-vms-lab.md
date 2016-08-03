@@ -1,15 +1,12 @@
 ---
 date: 2015-09-30T14:58:58+08:00
 title: 'Managed VMs lab'
-description: '開發 App Engine，開發者雖然只要專注於 Data 及 Application 即可，但是也因為為享有諸多的服務而有所限制(目前只有支援 4 種程式語言 Golang, Python, Java, PHP、在 sandbox 中無法寫入檔案等限制)，而 Managed VMs 中引進了 docker 的元素讓 App Engine 有了更多的彈性。如: 可以進行檔案讀寫、自定 Runtime。'
-type: post
-ogtype: article
+desc: '開發 App Engine，開發者雖然只要專注於 Data 及 Application 即可，但是也因為為享有諸多的服務而有所限制(目前只有支援 4 種程式語言 Golang, Python, Java, PHP、在 sandbox 中無法寫入檔案等限制)，而 Managed VMs 中引進了 docker 的元素讓 App Engine 有了更多的彈性。如: 可以進行檔案讀寫、自定 Runtime。'
 tags:
   - Golang
   - GAE
   - Python
   - Managed-VMs
-ogimage: /img/Managed-VMs.jpg
 ---
 
 **Presentation**:

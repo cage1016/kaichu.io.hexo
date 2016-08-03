@@ -1,8 +1,7 @@
 ---
 date: 2015-10-04T21:51:59+08:00
-description: 'docker 社群開發的速度非常的快速，而 docker 1.8 又有比較大的改變。boot2docker 的功能被 docker-machine 取代，此篇文章算是自己作一個記錄'
 title: '[筆記] docker 1.8.2 rc'
-type: post
+desc: 'docker 社群開發的速度非常的快速，而 docker 1.8 又有比較大的改變。boot2docker 的功能被 docker-machine 取代，此篇文章算是自己作一個記錄'
 tags:
   - docker
   - docker-machine

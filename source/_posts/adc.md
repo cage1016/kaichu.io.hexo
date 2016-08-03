@@ -1,7 +1,7 @@
 ---
 date: 2015-07-21T10:04:40+08:00
-title: 'Google Announce Application Default Credentials (ADC)'
-description: '今天 Google 公佈了 Application Default Credentials (ADC), 一個可以讓使用者更方便在 GCP 上去界接其他的需要使用 OAuth 存取的服務'
+title: Google Announce Application Default Credentials (ADC)
+desc: 今天 Google 公佈了 Application Default Credentials (ADC), 一個可以讓使用者更方便在 GCP 上去界接其他的需要使用 OAuth 存取的服務
 type: post
 tags:
   - APIs

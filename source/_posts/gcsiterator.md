@@ -1,8 +1,6 @@
 ---
 date: 2015-07-28T12:03:48+08:00
 title: GCSIterator (Python CSV iterator for Google Cloud Storage) via GAE
-type: post
-ogtype: article
 tags:
   - GCS
   - GAE

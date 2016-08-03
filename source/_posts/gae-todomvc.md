@@ -1,13 +1,10 @@
 ---
 date: 2015-07-27T15:24:58+08:00
 title: GAE-todomvc
-type: post
-ogtype: article
 tags:
   - Front-end
   - GAE
   - todomvc
-ogimage: /img/gae-todomvc-1.png
 ---
 
 最近需要幫內部基於[GAE - Python](https://cloud.google.com/appengine/docs/python/)平台上導入前端的框架，[TodoMVC](http://todomvc.com/)

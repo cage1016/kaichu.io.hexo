@@ -1,7 +1,6 @@
 ---
 date: '2015-07-12T08:41:06+08:00'
 title: '在 Github Pages 建立 Hugo 靜態網站'
-type: post
 tags:
   - hugo
   - github

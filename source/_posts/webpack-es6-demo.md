@@ -1,9 +1,7 @@
 ---
 date: 2015-08-14T06:06:37.000Z
-description: A simple sample for webpack + es6
+desc: A simple sample for webpack + es6
 title: webpack es6 demo
-ogtype: article
-type: post
 tags:
   - webpack
   - es6
