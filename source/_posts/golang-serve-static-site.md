@@ -17,7 +17,7 @@ date: 2016-08-04 10:22:03
 <!--- more -->
 
 ```bash
-# dist example
+# dist example
 $ l
 total 752
 -rw-r--r--  1 cage  staff    3317 Aug  4 00:22 1.counter.fa53ea42bc9ff9de19bd.js
@@ -31,7 +31,7 @@ total 752
 -rw-r--r--  1 cage  staff  183224 Aug  4 00:22 vendor.9012d9d99074521f418e.js
 ```
 
-考慮效能的問題, 最後打算使用 golang 來當作 host server, golang 內建的 `net/http` 可以輕鬆的使用 `http.FileServer(http.Dir("./"))` 來 host 整個靜態目錄
+考慮效能的問題, 最後打算使用 golang 來當作 host server, golang 內建的 `net/http` 可以輕鬆的使用 `http.FileServer(http.Dir("./"))` 來 host 整個靜態目錄
 
 ```golang
 package main
@@ -47,7 +47,7 @@ func main() {
 }
 ```
 
-但是上述的作法基本上是可以動的, 不過如果前端自己有使用到 `redux-router` 時, golang 並不會將請求導至前端的 router 而是直接得到 golang 404 而不會進到前端 redux-router 訂定的 router (如果有使用 redux-router 對 Notfound 進行處理)
+但是上述的作法基本上是可以動的, 不過如果前端自己有使用到 `redux-router` 時, golang 並不會將請求導至前端的 router 而是直接得到 golang 404 而不會進到前端 redux-router 訂定的 router (如果有使用 redux-router 對 Notfound 進行處理)
 
 ```bash
 http://localhost:3000/dfa
@@ -147,7 +147,7 @@ EXPOSE 3000
 CMD ["./counter"]
 ```
 
-Dockerfile 檔案中我們需要指定 docker image 啟動時直接執行我們透過 `GOOS=linux GOARCH=amd64 go build -o counter` 編譯出來的執行檔 `counter*`
+Dockerfile 檔案中我們需要指定 docker image 啟動時直接執行我們透過 `GOOS=linux GOARCH=amd64 go build -o counter` 編譯出來的執行檔 `counter*`
 
 執行自訂義 npm scripts `$ npm run docker` 成功執行後會自動建立 docker image
 
@@ -185,6 +185,6 @@ $ npm install
 # 一鍵建立 docker image
 $ npm docker
 
-# docker run
+# docker run
 $ docker run -d --name counter -p 3000:3000 username/counter:v0.1.0
 ```

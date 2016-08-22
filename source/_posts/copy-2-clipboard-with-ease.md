@@ -43,7 +43,7 @@ copy 2 clipboard with ease copy pattern option ![copy 2 clipboard with ease](/im
 
 # github
 
-[cage1016/copy-2-clipboard-with-ease](https://github.com/cage1016/copy-2-clipboard-with-ease)
+[cage1016/copy-2-clipboard-with-ease](https://github.com/cage1016/copy-2-clipboard-with-ease)
 
 # Chrome web store
 [copy 2 clipboard with ease](https://chrome.google.com/webstore/detail/copy-2-clipboad-with-ease/hiiobhaaokpmdmkkcaokdlanlemmcoah?utm_source=chrome-app-launcher)
