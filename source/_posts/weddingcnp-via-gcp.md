@@ -28,7 +28,7 @@ date: 2017-06-08 11:11:00
 
 <!-- more -->
 
-![weddingcnp](/img/weddingcnp-via-gpc-1.png)
+![weddingcnp](/img/weddingcnp-via-gpc-0_1.png)
 
 因為我們規劃了一些特別的梗(其實是要幫每一個出席的人作一張專屬的桌卡)，所需要每一個人的大頭照(avatar)，立馬就動到使用 Google/Facebook 進行登入，授權後程式能夠自動的抓到每一個人的照片，雖然不是每一個人的照片解析度都夠進行後制的加工，不過已經可以節省下非常多的時間
 
@@ -36,7 +36,7 @@ date: 2017-06-08 11:11:00
 
 ## weddingcnp architecture
 
-![weddingcnp architecture](/img/weddingcnp-via-gpc-2.png)
+![weddingcnp architecture](/img/weddingcnp-via-gpc-0_2.png)
 
 上面是 [weddingcnp](http://weddingcnp.appspot.com/) 的架構圖，整個網站完全是架構在 Google App Engine 上，透過 `dispatch.yaml` 的設定將流量切為服務前端靜態網頁(golang + vue.js + auth0)及後端 endpoint API 的部份。前後端為不同的 instance, 可以容易在 Google App Engine 的管理介面中計對前後端別分進行版控
 
