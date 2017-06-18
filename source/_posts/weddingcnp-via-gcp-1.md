@@ -18,12 +18,12 @@ desc: weddingcnp 使用 dispatch.yaml 來進行專案架構上的切分，利用
 
 1. [weddingcnp via GCP 簡介](https://kaichu.io/2017/06/08/weddingcnp-via-gcp/)
 1. [weddingcnp via GCP - 1. 專案架構切分](https://kaichu.io/2017/06/12/weddingcnp-via-gcp-1/)
-1. weddingcnp 前端頁面設計實作
+1. [weddingcnp 前端頁面設計實作](https://kaichu.io/2017/06/18/weddingcnp-via-gcp-2/)
 1. weddingcnp endpointAPI 設計實作
 1. weddingcnp 前端 vue.js 設計實作
 1. weddingcnp edm 寄送 sendgrid
 
-## weddingcnp 專案架構
+#### weddingcnp 專案架構
 
 [Cage & Ping wedding](http://weddingcnp.appspot.com/) 完全架構在 Google App Engine 上，再功能任務上需要達到幾個要求
 
