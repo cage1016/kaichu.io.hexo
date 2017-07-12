@@ -71,7 +71,7 @@ Enpoints API 作為接收前端送過來的資料，並接報名相關資料儲�
 
 1. [weddingcnp via GCP 簡介](https://kaichu.io/2017/06/08/weddingcnp-via-gcp/)
 1. [weddingcnp via GCP - 1. 專案架構切分](https://kaichu.io/2017/06/12/weddingcnp-via-gcp-1/)
-1. [weddingcnp 前端頁面設計實作](https://kaichu.io/2017/06/18/weddingcnp-via-gcp-2/)
-1. weddingcnp endpointAPI 設計實作
+1. [weddingcnp via GCP - 2. 前端頁面設計實作](https://kaichu.io/2017/06/18/weddingcnp-via-gcp-2/)
+1. [weddingcnp via GCP - 3. endpointAPI 設計實作](https://kaichu.io/2017/07/12/weddingcnp-via-gcp-3/)
 1. weddingcnp 前端 vue.js 設計實作
 1. weddingcnp edm 寄送 sendgrid
