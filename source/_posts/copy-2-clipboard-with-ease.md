@@ -37,7 +37,7 @@ the default copy patter is **url (title)**, you can change whatever you want but
 # Snapshot
 copy 2 clipboard with ease browser action
 
-![copy 2 clipboard with ease](/img/AD-1280x800 2.png)
+![copy 2 clipboard with ease](/img/ad1280x800.jpg)
 
 copy 2 clipboard with ease copy pattern option ![copy 2 clipboard with ease](/img/options-1.jpg) ![copy 2 clipboard with ease](/img/options-2.jpg)
 
