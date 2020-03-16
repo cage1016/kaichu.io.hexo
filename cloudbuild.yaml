@@ -31,6 +31,20 @@ steps:
       - name: ssh
         path: /root/.ssh
 
+  - name: gcr.io/cloud-builders/gcloud
+    entrypoint: bash
+    args:
+      - -exc
+      - |
+        # Cloud Build x GitHub integration uses source archives to fetch
+        # the source, rather than Git source fetching, and as a consequence
+        # does not include the .git/ directory. As a workaround, we clone
+        # the repository and reset it to this build's commit sha.
+        git clone 'git@github.com:cage1016/cage1016.github.io.git' tmp        
+    volumes:
+      - name: ssh
+        path: /root/.ssh
+
   - name: node:12.14.1
     entrypoint: /bin/sh
     args:
@@ -39,7 +53,22 @@ steps:
         yarn install
         yarn global add hexo-cli --prefix /usr/local
         hexo clean
-        hexo deploy
+        hexo generate
     volumes:
       - name: ssh
-        path: /root/.ssh        
+        path: /root/.ssh
+
+  - name: gcr.io/cloud-builders/gcloud
+    entrypoint: bash
+    args:
+      - -exc
+      - |
+        cp -rf public/* tmp
+        cd tmp
+        git add .
+        git config user.email $(gcloud auth list --filter=status:ACTIVE --format='value(account)')
+        git commit -m 'Site auto updated by cloudbuild'
+        git push origin master
+    volumes:
+      - name: ssh
+        path: /root/.ssh
