@@ -1,0 +1,45 @@
+steps:
+  - name: gcr.io/cloud-builders/gcloud
+    args:
+      - kms
+      - decrypt
+      - --ciphertext-file=kaichuio_ida_rsa.enc
+      - --plaintext-file=/root/.ssh/kaichuio_ida_rsa
+      - --location=global
+      - --keyring=kaichuio
+      - --key=github-key
+    volumes:
+      - name: ssh
+        path: /root/.ssh
+
+  - name: gcr.io/cloud-builders/git
+    entrypoint: bash
+    args:
+      - -exc
+      - |
+        chmod 600 /root/.ssh/kaichuio_ida_rsa
+        
+        # Add github.com to known hosts to prevent failure
+        ssh-keyscan -t rsa github.com >> /root/.ssh/known_hosts
+        
+        # Add key to github.com config
+        cat <<EOF >/root/.ssh/config
+        Hostname github.com
+        IdentityFile /root/.ssh/kaichuio_ida_rsa
+        EOF
+    volumes:
+      - name: ssh
+        path: /root/.ssh
+
+  - name: node:12.14.1
+    entrypoint: /bin/sh
+    args:
+      - -exc
+      - |
+        yarn install
+        yarn global add hexo-cli --prefix /usr/local
+        hexo clean
+        hexo deploy
+    volumes:
+      - name: ssh
+        path: /root/.ssh        
