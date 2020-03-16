@@ -13,9 +13,7 @@ date: 2020-03-16 02:00:55
 ---
 
 
-在設計 API server 的時候會有遇到即時訊息傳遞的需求，同步可以用 GRPC 建立連線來溝通，為了降低系統的耦合性，可以選擇非同步的方式
-而 PubSub 結合 websocket 是常用的方式。對於一位 Gopher 來說，[NATS](https://nats.io/) 是 [CNCF](https://www.cncf.io/) 下面中關於訊息傳遞的開源專案且對 Golang 友善(比 Kafka 好多了 XD)
-選擇 [NATS](https://nats.io/) 的 PubSub 功能搭配 websocket 好像也是一個合理的選擇
+在設計 API server 的時候會有遇到即時訊息傳遞的需求，同步可以用 GRPC 建立連線來溝通，為了降低系統的耦合性，可以選擇非同步的方式。而 PubSub 結合 websocket 是常用的方式。對於一位 Gopher 來說，[NATS](https://nats.io/) 是 [CNCF](https://www.cncf.io/) 下面中關於訊息傳遞的開源專案且對 Golang 友善(比 Kafka 好多了 XD)，選擇 [NATS](https://nats.io/) 的 PubSub 功能搭配 websocket 好像也是一個合理的選擇
 
 <!-- more -->
 
@@ -24,7 +22,7 @@ date: 2020-03-16 02:00:55
 Google App Engine 有一個很棒的功能是非常容易的建立 service，每一個 service 可以類比成 microservice。現在已經支援了 `Python`, `Java`, `Node.js`, `PHP`, `Runy`, `Go` 等幾種程式語言，也可以在 standard, flex, custom runtime (打包成 Docker 就不受到程式語言限制了) 中進行混搭，怎麼搭配就看題目進行選擇
 
 不囉嗦，先看整個架構圖
-![infrastrucutre](/img/gae-custom-ws-1.png)
+![infrastrucutre](/img/gae-custom-ws-0.png)
 
 這邊我們有 3 個 service + 1 個 Google compute engine instance
 
