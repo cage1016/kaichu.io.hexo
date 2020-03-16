@@ -24,7 +24,6 @@ date: 2020-03-16 02:00:55
 Google App Engine 有一個很棒的功能是非常容易的建立 service，每一個 service 可以類比成 microservice。現在已經支援了 `Python`, `Java`, `Node.js`, `PHP`, `Runy`, `Go` 等幾種程式語言，也可以在 standard, flex, custom runtime (打包成 Docker 就不受到程式語言限制了) 中進行混搭，怎麼搭配就看題目進行選擇
 
 不囉嗦，先看整個架構圖
-![infrastrucutre](/img/gae-custom-ws-1.png)
 
 這邊我們有 3 個 service + 1 個 Google compute engine instance
 
