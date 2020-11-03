@@ -23,7 +23,7 @@ desc: 參加 Global GDG Leaders Summit 2018 and Google I/O 2018 心得分享
 ## Global GDG Leaders Summit
 > `534` GDG Leads. `91` Counties, `99` WTM Leads
 
-今年的 Global GDG Leaders Summit 2018 在 Google Event Center 舉辦，為期一天的活動有滿滿的 Sessions
+今年的 Global GDG Leaders Summit 2018 在 Google Event Center 舉辦，為期一天的活動有滿滿的 Sessions
 - Growth
 - Collaboration
 - Devfest
@@ -38,7 +38,7 @@ desc: 參加 Global GDG Leaders Summit 2018 and Google I/O 2018 心得分享
 
 ## Google I/O 2018
 
-以往的 Google I/O Keynote 都只能在台灣熬夜觀看(台灣/加州時間15個小時)，這一次終於在現在聽 Pichai 開場(雖然是白天，身體實際上還是在熬夜 QQ)。為期3天的議程，因為算是 Google 一年一度的科技大拜拜，所以議程幾乎含括了所有的產品線，不過我大至上還是挑選跟 Cloud 及有興趣的主題來聽，另外現場還是有許多 Sandbox 可以參觀
+以往的 Google I/O Keynote 都只能在台灣熬夜觀看(台灣/加州時間15個小時)，這一次終於在現在聽 Pichai 開場(雖然是白天，身體實際上還是在熬夜 QQ)。為期3天的議程，因為算是 Google 一年一度的科技大拜拜，所以議程幾乎含括了所有的產品線，不過我大至上還是挑選跟 Cloud 及有興趣的主題來聽，另外現場還是有許多 Sandbox 可以參觀
 
 - Google Assistant
 - Cloud Firebase / Flutter
