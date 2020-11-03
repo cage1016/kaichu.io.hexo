@@ -1,7 +1,7 @@
 ---
 title: Skaffold debug goland
 tags:
-  - kubeneters
+  - kubernetes
   - skaffold
   - debug
   - golang
